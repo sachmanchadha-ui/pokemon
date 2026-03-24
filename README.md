@@ -1,3 +1,10 @@
+#Import the module named requests 
+
+`import requests` 
+
+#save the url in a variable 
+
+`url=“https://pokeapi.co/api/v2/pokemon/pikachu”`
 #now make a get request to the api to get the information stored in the api and then store it in a variable called response 
 
 `response=requests.get(url)`
