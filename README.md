@@ -47,15 +47,21 @@ NOTE: f string is used to insert a value into a string
 NOTE: type in the api is a list like this:
 
 {
-"types": [
-{
-"slot": 1,
-"type": {"name": "electric"}
-
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "electric"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "flying"
+      }
+    }
+  ]
 }
-]
-}
-
 NOTE:look at this like:
 
 data (dict)
